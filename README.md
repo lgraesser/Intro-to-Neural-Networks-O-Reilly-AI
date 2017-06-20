@@ -4,14 +4,9 @@ Please come with Keras, Theano or Tensorflow, and Matplotlib installed
 
 Instructions for installing the relevant libraries with conda environments or virtualenv are below
 
-## Installation wirth
+## Installation Instructions
 
 The instructions below will help you set up a virtual environment, get all of the scripts and data, and install all of the libraries required for this tutorial. There are two sets of instructions. If you have the Anaconda distribution of Python then follow the instructions "1. Using Anaconda". Otherwise follow the instructions "2. Using virtualenv."
-
-There are two ways to create virtual environments in Python.
-
-1. Using the Anaconda distribution of Python.
-2. Using virtualenv.
   
 #### 1. Using Anaconda
 If you have the anaconda distribution of Python (see [here](http://conda.pydata.org/docs/using/envs.html) for more info), then follow the instructions below. Note, there is an issue with matplotlib and python 3.6, so please specify the python version to be <=3.5 to make the matplotlib install work.
@@ -24,7 +19,7 @@ mkdir <directory_name>
 # eg. mkdir NN_tutorial
 cd <directory_name>
 
-# Clone the repo, install the relevant libraries using setup.py and test the install worked
+# Clone the repo
 git clone https://github.com/lgraesser/Intro-to-Neural-Networks-O-Reilly-AI.git
 cd Intro-to-Neural-Networks-O-Reilly-AI
 
@@ -38,7 +33,6 @@ source activate NN_tutorial
 # Launch jupyter notebook
 jupyter notebook
 
-# Now you are finished. 
 # When you need to exit the environment (at the end of the tutorial for example), type.
 source deactivate
 ```
@@ -51,7 +45,7 @@ mkdir <directory_name>
 # eg. mkdir NN_tutorial
 cd <directory_name>
 
-# Clone the repo, install the relevant libraries using setup.py and test the install worked
+# Clone the repo
 git clone https://github.com/lgraesser/Intro-to-Neural-Networks-O-Reilly-AI.git
 cd Intro-to-Neural-Networks-O-Reilly-AI
 
@@ -65,7 +59,6 @@ activate NN_tutorial
 # Launch jupyter notebook
 jupyter notebook
 
-# Now you are finished. 
 # When you need to exit the environment (at the end of the tutorial for example), type.
 deactivate
 ```
@@ -86,7 +79,7 @@ virtualenv NN_tutorial
 # Switch into your new environment
 souce NN_tutorial/bin/activate
 
-# Clone the repo, install the relevant libraries using setup.py and test the install worked
+# Clone the repo
 git clone https://github.com/lgraesser/Intro-to-Neural-Networks-O-Reilly-AI.git
 cd Intro-to-Neural-Networks-O-Reilly-AI
 
@@ -96,7 +89,6 @@ pip install -r requirements.txt
 # Launch jupyter notebook
 jupyter notebook
 
-# Now you are finished. 
 # When you need to exit the environment (at the end of the tutorial for example), type.
 deactivate
 ```
@@ -105,7 +97,7 @@ deactivate
 
 #### Import Error: No module named tensorflow
 
-If you get an error message when running ```python test/test_install.py``` that ends with "Import Error: No module named tensorflow" this means that your version of Keras is using Tensorflow instead of Theano as the backend.
+Your version of Keras is using Tensorflow instead of Theano as the backend.
 
 To change the backend to Theano you need to change the settings in the Keras config file.
 
