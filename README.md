@@ -15,6 +15,9 @@ cd <directory_name>
 # Clone the repo
 git clone https://github.com/lgraesser/Intro-to-Neural-Networks-O-Reilly-AI.git
 cd Intro-to-Neural-Networks-O-Reilly-AI
+
+# Launch jupyter notebook
+jupyter notebook
 ```
 
 ## Installation Instructions
