@@ -22,7 +22,7 @@ cd Intro-to-Neural-Networks-O-Reilly-AI
 The instructions below will help you set up a virtual environment, get all of the scripts and data, and install all of the libraries required for this tutorial. There are two sets of instructions. If you have the Anaconda distribution of Python then follow the instructions "1. Using Anaconda". Otherwise follow the instructions "2. Using virtualenv."
   
 #### 1. Using Anaconda
-If you have the anaconda distribution of Python (see [here](http://conda.pydata.org/docs/using/envs.html) for more info), then follow the instructions below. Note, there is an issue with matplotlib and python 3.6, so please specify the python version to be <=3.5 to make the matplotlib install work.
+If you have the anaconda distribution of Python (see [here](http://conda.pydata.org/docs/using/envs.html) for more info), then follow the instructions below. 
 
 **Linux/Mac**
 
@@ -90,7 +90,7 @@ cd <directory_name>
 # Create a new virtual environment
 virtualenv NN_tutorial
 # Switch into your new environment
-souce NN_tutorial/bin/activate
+source NN_tutorial/bin/activate
 
 # Clone the repo
 git clone https://github.com/lgraesser/Intro-to-Neural-Networks-O-Reilly-AI.git
