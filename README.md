@@ -2,7 +2,20 @@
 
 Please come with Keras, Theano or Tensorflow, and Matplotlib installed
 
-Instructions for installing the relevant libraries with conda environments or virtualenv are below
+Instructions for installing the relevant libraries with conda environments or virtualenv are below. These instructions also explain how to download the materials for the tutorial.
+
+If you already have the libraries installed then please clone the repo using the terminal commands below
+
+```shell
+# In the terminal create a directory that you want to contain this repo and navigate to it
+mkdir <directory_name>
+# eg. mkdir NN_tutorial
+cd <directory_name>
+
+# Clone the repo
+git clone https://github.com/lgraesser/Intro-to-Neural-Networks-O-Reilly-AI.git
+cd Intro-to-Neural-Networks-O-Reilly-AI
+```
 
 ## Installation Instructions
 
